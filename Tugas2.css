@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-section {
+    background: #f6f7f8;
+    width: 350px;
+}
+
+.form-content {
+    border: 1px solid #000000;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.form-content h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 130px;
+    font-size: 14px;
+}
+
+.form-group .separator {
+    width: 15px;
+    text-align: center;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn-container {
+    margin-left: 145px;
+    margin-top: 15px;
+}
+
+.btn-container button {
+    padding: 4px 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-container button:hover {
+    background-color: #e0e0e0;
+}
+
+.table-section {
+    flex: 1;
+    min-width: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+th {
+    background-color: #165b83;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #d3d3d3;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+}
+
+tr:nth-child(even) {
+    background-color: #e8eef3;
+}
+
+tr:nth-child(odd) {
+    background-color: #d0daf0;
+}
